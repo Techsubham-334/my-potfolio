@@ -1,0 +1,117 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #ffffff;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* CTA Section */
+.section-cta {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.section-cta h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.section-cta .subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.cta-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.cta-box {
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.cta-box .icon {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.cta-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Insights Section */
+.section-insights {
+  padding: 80px 20px;
+  background: linear-gradient(#fff4d6, #ffe0d6);
+}
+
+.insight-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+
+.insight-content .text {
+  flex: 1 1 500px;
+}
+
+.insight-content .image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-insights h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.subtext {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.insight-list {
+  list-style: none;
+}
+
+.insight-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.insight-list .icon-small {
+  width: 40px;
+  height: 40px;
+}
+
+.insight-list h4 {
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: 600;
+}
